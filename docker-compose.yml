@@ -1,6 +1,7 @@
-version : "3.9"
+version : "3.8"
 
 services:
+
 
   flask-api:
     image: atiqkhan2288/flask-micro-api:latest
@@ -8,9 +9,11 @@ services:
     ports:
       - "5000:5000"
 
+
   mongo-db:
     image: mongo
     container_name: mongo
     ports:
       - "27017:27017"
+
 
